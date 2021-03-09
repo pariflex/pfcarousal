@@ -1,6 +1,35 @@
-<iframe src="https://www.facebook.com/plugins/post.php?
-href=https%3A%2F%2Fwww.facebook.com%2Fpublicityfunda%2Fposts%2F1341575459545603&width=5
-00&show_text=true&height=498&appId" width="900" height="498"
-style="border:none;overflow:hidden" scrolling="no" frameborder="0" 
-allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; 
-picture-in-picture; web-share"></iframe>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.responsive-iframe {
+  allign: Centre;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+</style>
+</head>
+<body>
+
+
+<div class="container"> 
+  <iframe class="responsive-iframe" src="https://www.facebook.com/plugins/post.php?
+href=https%3A%2F%2Fwww.facebook.com%2Fpublicityfunda%2Fposts%2F1341575459545603&"></iframe>
+</div>
+
+</body>
+</html>
